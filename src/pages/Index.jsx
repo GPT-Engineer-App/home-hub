@@ -34,8 +34,11 @@ const Index = () => {
       <Heading as="h1" mb={6} textAlign="center">
         Property Submission Form
       </Heading>
-      <Text fontSize="lg" mb={6}>
+      <Text fontSize="lg" mb={4}>
         If you have a property you're looking to sell, please enter your contact information below and we will get in touch with you shortly.
+      </Text>
+      <Text fontSize="md" mb={6}>
+        We'll connect you with a local real estate professional to buy your home quickly and hassle-free. You could have your house sold in days, regardless of the condition or your financial situation. We'll send our investor to come view your home, and give you a no-obligation cash offer.
       </Text>
       <Box as="form" onSubmit={handleSubmit}>
         <FormControl isRequired mb={4}>
